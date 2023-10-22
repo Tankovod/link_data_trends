@@ -61,18 +61,8 @@ def pg_select_trends(from_time: datetime, to_time: datetime, object_trend_names:
 
 
 objects = [
-    ('PO007', '192.168.121.4', True),
-    ('VO014', '192.168.120.1', True),
-    ('GE120', '192.168.101.4', True),
-    ('VO012_112', '192.168.0.112', False),
     ('localhost', '127.0.0.1', False),
     ('localhost1', '127.0.0.1', False),
 ]
 
-
-# pg_insert_objects(objects)
-# trend_id = pg_insert_curr_datetime()
-# pg_insert_trends(objects, trend_id)
-# objects = pg_select_objects(objects)
-# print(objects)
 
